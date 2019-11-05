@@ -18,6 +18,13 @@ class SpringbootCmfzApplicationTests {
     private AdminDao adminDao;
     @Test
     void contextLoads() {
+        System.out.println("----------------------------------");
+        
+         System.out.println("----------------------------------");
+        
+         System.out.println("----------------------------------");
+        
+         System.out.println("----------------------------------");
         Admin admin = new Admin();
         //adminDao.selectAll();
         List<Admin> list = adminDao.select(admin);
